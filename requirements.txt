@@ -1,0 +1,7 @@
+pyside6
+opencv-python
+ultralytics
+easyocr
+numpy
+pillow
+openpyxl

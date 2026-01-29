@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Build
+build/
+dist/
+*.spec
+
+# Logs
+*.log
+
+# Database (nếu không muốn public)
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db

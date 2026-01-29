@@ -1,0 +1,28 @@
+{
+  "model_path": "license_plate_detector.pt",
+  "conf_thres": 0.55,
+  "debounce_sec": 12,
+  "snapshot_dir": "snapshots",
+  "db_path": "anpr.db",
+  "strict_vn_plate": true,
+
+  "excel_path": "anpr_export.xlsx",
+
+  "ignore_plates": [
+    "50A155555",
+    "50AA55555"
+  ],
+  
+  "cameras": [
+    {
+      "name": "GATE_IN",
+      "role": "IN",
+      "rtsp": "rtsp://admin:Nua@13579@192.168.1.201:554/Streaming/Channels/101/"
+    },
+    {
+      "name": "GATE_OUT",
+      "role": "OUT",
+      "rtsp": "rtsp://admin:Nua@13579@192.168.1.202:554/Streaming/Channels/101/"
+    }
+  ]
+}
